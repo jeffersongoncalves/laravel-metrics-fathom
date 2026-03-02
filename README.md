@@ -6,6 +6,11 @@
 
 # Laravel Metrics Fathom
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/jeffersongoncalves/laravel-metrics-fathom.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/laravel-metrics-fathom)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/laravel-metrics-fathom/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/jeffersongoncalves/laravel-metrics-fathom/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3Amain)
+[![PHPStan](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/laravel-metrics-fathom/phpstan.yml?branch=main&label=PHPStan&style=flat-square)](https://github.com/jeffersongoncalves/laravel-metrics-fathom/actions?query=workflow%3APHPStan+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/jeffersongoncalves/laravel-metrics-fathom.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/laravel-metrics-fathom)
+
 Laravel package to interact with the [Fathom Analytics](https://usefathom.com) API. Fetch pageviews, visitors, events, milestones, and generate custom aggregation reports.
 
 Settings are stored in the database via [spatie/laravel-settings](https://github.com/spatie/laravel-settings) — no config files needed.
