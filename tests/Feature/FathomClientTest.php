@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Http;
+use JeffersonGoncalves\MetricsFathom\Enums\Aggregate;
 use JeffersonGoncalves\MetricsFathom\Exceptions\AuthenticationException;
 use JeffersonGoncalves\MetricsFathom\Exceptions\RateLimitException;
 use JeffersonGoncalves\MetricsFathom\Fathom;
@@ -100,8 +101,8 @@ it('runs aggregation query', function () {
     $fathom = app('fathom');
     $query = $fathom->query()
         ->aggregate(
-            \JeffersonGoncalves\MetricsFathom\Enums\Aggregate::Visits,
-            \JeffersonGoncalves\MetricsFathom\Enums\Aggregate::Pageviews,
+            Aggregate::Visits,
+            Aggregate::Pageviews,
         )
         ->from('2026-01-01 00:00:00')
         ->to('2026-01-31 23:59:59');
